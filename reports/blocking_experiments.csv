@@ -1,0 +1,4 @@
+configuration,scope,rules,blocking_recall,candidate_events,notes
+A_exact_name,full_validation,exact_name,0.1889709454,452718,High-precision smallest single-pass reference.
+B_core_name,full_validation,core_name,0.3443928482,802873,Legal-suffix-tolerant single-pass reference.
+C_selected_union,full_validation,"exact_name|core_name|sorted_name|postal|name_number",0.7209928296,17151554,Selected recall-oriented union; candidate_events are deduplicated only within each rule, union pair count is reported separately in blocking_analysis.md.

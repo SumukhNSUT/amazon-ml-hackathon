@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "true_links_total": 763837,
+    "s2_true_links": 369312,
+    "s3_true_links": 394525,
+    "s2_found": 261953,
+    "s3_found": 288768,
+    "combined_found": 550721,
+    "s2_recall": 0.7092999956676198,
+    "s3_recall": 0.7319384069450605,
+    "combined_recall": 0.7209928296220267,
+    "total_candidate_pairs": 17151554,
+    "average_candidates_per_s1": 77.72032281598491,
+    "median_candidates_per_s1": 27,
+    "p90_candidates_per_s1": 254.0,
+    "p95_candidates_per_s1": 385.0,
+    "p99_candidates_per_s1": 529.0,
+    "max_candidates_per_s1": 1520,
+    "zero_candidate_s1": 4685,
+    "zero_candidate_percentage": 2.1229546453510237,
+    "reduction_ratio": 0.9999924691207797,
+    "all_pairs": 2277496889577,
+    "true_matches_missed": 213116
+  },
+  "rules": [
+    {
+      "rule": "exact_name",
+      "frequency_cap": 15,
+      "candidate_events": 452718,
+      "true_links_found": 144343,
+      "unique_true_links": 649,
+      "rule_recall": 0.18897094537185288,
+      "incremental_unique_recall": 0.000849657714931327
+    },
+    {
+      "rule": "core_name",
+      "frequency_cap": 44,
+      "candidate_events": 802873,
+      "true_links_found": 263060,
+      "unique_true_links": 31333,
+      "rule_recall": 0.34439284821238036,
+      "incremental_unique_recall": 0.04102053186740103
+    },
+    {
+      "rule": "sorted_name",
+      "frequency_cap": 17,
+      "candidate_events": 510443,
+      "true_links_found": 179695,
+      "unique_true_links": 5042,
+      "rule_recall": 0.23525307100860524,
+      "incremental_unique_recall": 0.006600884743734593
+    },
+    {
+      "rule": "rare_token",
+      "frequency_cap": 1105,
+      "candidate_events": 0,
+      "true_links_found": 0,
+      "unique_true_links": 0,
+      "rule_recall": 0.0,
+      "incremental_unique_recall": 0.0
+    },
+    {
+      "rule": "name_prefix",
+      "frequency_cap": 242,
+      "candidate_events": 0,
+      "true_links_found": 0,
+      "unique_true_links": 0,
+      "rule_recall": 0.0,
+      "incremental_unique_recall": 0.0
+    },
+    {
+      "rule": "postal",
+      "frequency_cap": 559,
+      "candidate_events": 12160618,
+      "true_links_found": 144511,
+      "unique_true_links": 18196,
+      "rule_recall": 0.18919088758465485,
+      "incremental_unique_recall": 0.02382183633419172
+    },
+    {
+      "rule": "name_number",
+      "frequency_cap": 67,
+      "candidate_events": 4440351,
+      "true_links_found": 450006,
+      "unique_true_links": 170920,
+      "rule_recall": 0.5891387822270981,
+      "incremental_unique_recall": 0.22376501792921788
+    }
+  ],
+  "runtime_seconds": 687.5665346659953,
+  "peak_rss_bytes": 1574109184
+}

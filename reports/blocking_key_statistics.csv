@@ -1,0 +1,8 @@
+rule,s1_relevant_keys_hit,min_target_frequency,median_target_frequency,p90_target_frequency,p95_target_frequency,p99_target_frequency,max_target_frequency,selected_frequency_cap
+exact_name,123418,1,2,9,15,72,458,15
+core_name,150201,1,3,13,44,111,1344,44
+sorted_name,136768,1,2,10,17,77,458,17
+rare_token,43511,1,59,321,1105,8815,1199657,1105
+name_prefix,69219,1,12,132,242,887,61913,242
+postal,20731,1,68,364,559,1195,4430,559
+name_number,433629,1,4,34,67,293,106349,67

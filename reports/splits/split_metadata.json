@@ -1,0 +1,53 @@
+{
+  "ground_truth_path": "dataset/train/train_ground_truth.tsv",
+  "overlap_count": 0,
+  "seed": 2026,
+  "selection": "stable_blake2b_rank_stratified_by_complete_match_count",
+  "total_match_count_distribution": {
+    "0": 123247,
+    "1": 119157,
+    "2": 375212,
+    "3": 530841,
+    "4": 484115,
+    "5": 321957,
+    "6": 164868,
+    "7": 63968,
+    "8": 18680,
+    "9": 4205,
+    "10": 534,
+    "11": 37
+  },
+  "train_ids_path": "reports/splits/train_source1_ids.txt",
+  "train_match_count_distribution": {
+    "0": 110922,
+    "1": 107241,
+    "2": 337691,
+    "3": 477757,
+    "4": 435703,
+    "5": 289761,
+    "6": 148381,
+    "7": 57571,
+    "8": 16812,
+    "9": 3785,
+    "10": 481,
+    "11": 33
+  },
+  "train_source1_count": 1986138,
+  "validation_fraction_requested": 0.1,
+  "validation_ids_path": "reports/splits/validation_source1_ids.txt",
+  "validation_match_count_distribution": {
+    "0": 12325,
+    "1": 11916,
+    "2": 37521,
+    "3": 53084,
+    "4": 48412,
+    "5": 32196,
+    "6": 16487,
+    "7": 6397,
+    "8": 1868,
+    "9": 420,
+    "10": 53,
+    "11": 4
+  },
+  "validation_source1_count": 220683
+}
